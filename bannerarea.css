@@ -36,6 +36,12 @@
   flex-direction: column-reverse;
   align-items: center;
 }
+.bannerwrapperrev {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-top: 60px;
+}
 .image {
   height: 250px;
   width: 250px;
@@ -43,6 +49,15 @@
   border-radius: 100%;
   margin-top: 40px;
   background-image: url("./priyanshu1\ \(1\).jpg");
+  background-size: cover;
+}
+.image2 {
+  height: 250px;
+  width: 250px;
+  border: 5px solid #ff4719;
+  border-radius: 100%;
+  margin-top: 40px;
+  background-image: url("./priyanshumishra.jpg");
   background-size: cover;
 }
 @media all and (min-width: 340px) {
@@ -82,6 +97,12 @@
     border: 5px solid #ff4719;
     border-radius: 100%;
   }
+  .image2 {
+    height: 350px;
+    width: 350px;
+    border: 5px solid #ff4719;
+    border-radius: 100%;
+  }
 }
 @media all and (min-width: 1000px) {
   .bannerarea h1 {
@@ -116,14 +137,36 @@
     margin-left: 40px;
     margin-top: -100px;
   }
+  .image2 {
+    height: 350px;
+    width: 350px;
+    border: 5px solid #ff4719;
+    border-radius: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: -100px;
+  }
   .bannerwrapper {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
   }
+  .bannerwrapperrev {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 }
 @media all and (min-width: 1300px) {
   .image {
+    height: 350px;
+    width: 350px;
+    border: 5px solid #ff4719;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: -100px;
+  }
+  .image2 {
     height: 350px;
     width: 350px;
     border: 5px solid #ff4719;
@@ -136,6 +179,11 @@
     flex-direction: row;
     justify-content: flex-start;
   }
+  .bannerwrapperrev {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
 }
 @media all and (min-width: 1400px) {
   .image {
@@ -146,9 +194,21 @@
     margin-left: 150px;
     margin-top: 0px;
   }
+  .image2 {
+    height: 400px;
+    width: 400px;
+    border: 5px solid #ff4719;
+    border-radius: 100%;
+    margin-top: 0px;
+  }
   .bannerwrapper {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+  }
+  .bannerwrapperrev {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
   }
 }

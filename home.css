@@ -32,8 +32,8 @@ body {
 .box2 {
   height: auto;
   background-color: #fff;
-  padding: 10px;
-  margin: 20px;
+  padding: 16px;
+  margin: 30px;
   border-radius: 20px;
   box-shadow: -30px 30px 5px -4px rgba(34, 34, 34, 0.5);
   -webkit-box-shadow: -30px 30px 5px -4px rgba(34, 34, 34, 0.5);
@@ -46,9 +46,19 @@ h2 {
 }
 .box2 h2 {
   color: #ff4719;
+  font-size: 8vw;
 }
 .box1 h2 {
   color: #fff;
+}
+.smol {
+  padding: 20px;
+}
+.hi {
+  font-size: 38vw;
+}
+.iam {
+  font-size: 15vw;
 }
 @media all and (min-width: 500px) {
   .box1 h2 {
@@ -74,6 +84,9 @@ h2 {
   .box1 h2 {
     font-size: 120px;
   }
+  .box2 h2 {
+    font-size: 4.2vw;
+  }
   .box2 {
     width: 60%;
     padding: 40px 60px;
@@ -82,6 +95,12 @@ h2 {
   }
   h2 {
     font-size: 40px;
+  }
+  .hi {
+    font-size: 18vw;
+  }
+  .iam {
+    font-size: 9vw;
   }
 }
 @media all and (min-width: 1000px) {
@@ -288,6 +307,12 @@ h2 {
   .box1 h2 {
     font-size: 120px;
   }
+  .hi {
+    font-size: 14vw;
+  }
+  .iam {
+    font-size: 8vw;
+  }
 }
 @media all and (min-width: 1400px) {
   .cthree {
@@ -302,4 +327,46 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.cont {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contactme {
+  margin: 10px 0px;
+  padding: 10px;
+  font-size: 6vw;
+  display: flex;
+  color: #fff;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contactme i {
+  margin-right: 5px;
+  color: #ff4719;
+  font-size: 7vw;
+}
+@media all and (min-width: 500px) {
+  .contactme {
+    font-size: 4vw;
+  }
+  .contactme i {
+    font-size: 5vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  .cont {
+    margin-top: 0px;
+    margin-right: 40px;
+    justify-content: space-around;
+  }
+  .contactme {
+    font-size: 3vw;
+  }
+  .contactme i {
+    font-size: 4vw;
+  }
 }

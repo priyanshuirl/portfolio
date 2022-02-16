@@ -50,7 +50,7 @@ a:hover {
   display: none;
 }
 .button a {
-  padding: 7.5px 15px;
+  padding: 7.5px 18px;
   background: #ff4719;
   border: 1px #ff2f01 solid;
   border-radius: 50em;
@@ -60,7 +60,7 @@ a:hover {
 }
 .secondary a {
   background: transparent;
-  padding: 7.5px 35px;
+  padding: 7.5px 20px;
   border-radius: 50em;
   border: 1px #ff2f01 solid;
 }
