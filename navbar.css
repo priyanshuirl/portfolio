@@ -1,0 +1,186 @@
+nav {
+  background: #222;
+  padding: 1px 16px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: #ff4719;
+}
+.logo a:hover {
+  text-decoration: none;
+}
+.menu li {
+  padding: 15px 5px;
+  white-space: nowrap;
+}
+.logo a,
+.toggle a {
+  font-size: 20px;
+}
+.logo a {
+  color: #fff;
+  font-family: "Baloo 2", cursive;
+}
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.toggle {
+  order: 1;
+}
+.item.button {
+  order: 3;
+}
+.item.secondary {
+  order: 4;
+}
+.item {
+  width: 100%;
+  text-align: center;
+  order: 2;
+  display: none;
+}
+.button a {
+  padding: 7.5px 15px;
+  background: #ff4719;
+  border: 1px #ff2f01 solid;
+  border-radius: 50em;
+}
+.secondary {
+  border-bottom: 1px solid #444;
+}
+.secondary a {
+  background: transparent;
+  padding: 7.5px 35px;
+  border-radius: 50em;
+  border: 1px #ff2f01 solid;
+}
+.button a:hover {
+  text-decoration: none;
+  transition: all 0.25s;
+}
+.button:not(.secondary) a:hover {
+  background: #ff0000;
+  border-color: #ff0101;
+  color: #fff;
+}
+.secondary a:hover {
+  color: #ff4719;
+}
+.toggle {
+  cursor: pointer;
+}
+.bars {
+  background: #999;
+  display: inline-block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+.bars:before,
+.bars:after {
+  background: #999;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+.bars:before {
+  top: 5px;
+}
+.bars:after {
+  top: -5px;
+}
+#navbar {
+  width: 100%;
+  height: auto;
+  position: sticky;
+  top: 0;
+}
+@media all and (min-width: 600px) {
+  .logo a {
+    font-size: 25px;
+  }
+  .menu li {
+    font-size: 18px;
+  }
+  .menu {
+    justify-content: center;
+  }
+  .logo {
+    flex: 1;
+  }
+  .item.button {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+  .item.secondary {
+    width: auto;
+    order: 1;
+    display: block;
+  }
+  .toggle {
+    order: 2;
+  }
+  .item {
+    order: 3;
+  }
+  .item.last {
+    border-bottom: 1px solid #444;
+  }
+  .secondary a {
+    padding: 7.5px 15px;
+  }
+}
+@media all and (min-width: 1000px) {
+  .logo a {
+    font-size: 30px;
+  }
+  .menu li {
+    font-size: 20px;
+  }
+  .item {
+    display: block;
+    width: auto;
+  }
+  .toggle {
+    display: none;
+  }
+  .logo {
+    order: 0;
+  }
+  .item {
+    order: 1;
+  }
+  .button {
+    order: 2;
+  }
+  .secondary {
+    order: 3;
+  }
+  .menu li {
+    padding: 15px 10px;
+  }
+  .menu li.button {
+    padding-right: 0;
+  }
+  .secondary {
+    border: 0px;
+  }
+  .item.last {
+    border-bottom: 0px;
+  }
+}

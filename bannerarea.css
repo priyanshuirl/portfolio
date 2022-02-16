@@ -1,0 +1,154 @@
+.bannerarea {
+  display: flex;
+  align-items: flex-start;
+}
+.bannerarea h1 {
+  color: #fff;
+  font-size: 40px;
+  padding: 20px 10px 30px 20px;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+.bannerbtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+.bannerbtn .getbtn {
+  padding: 7.5px 60px;
+  background: #ff4719;
+  border: 1px #ff2f01 solid;
+  border-radius: 50em;
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+.bannerbtn .logbtn {
+  padding: 7.5px 60px;
+  border: 1px #ff4719 solid;
+  border-radius: 50em;
+  font-family: "Montserrat", sans-serif;
+  color: #ff4719;
+  margin-bottom: 70px;
+}
+.bannerwrapper {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.image {
+  height: 250px;
+  width: 250px;
+  border: 5px solid #ff4719;
+  border-radius: 100%;
+  margin-top: 40px;
+  background-image: url("./priyanshu1\ \(1\).jpg");
+  background-size: cover;
+}
+@media all and (min-width: 340px) {
+  .bannerarea h1 {
+    font-size: 50px;
+    padding: 60px 20px 60px 20px;
+  }
+  .bannerbtn {
+    font-size: 25px;
+  }
+  .bannerbtn .getbtn {
+    padding: 7.5px 70px;
+    margin-bottom: 20px;
+  }
+  .bannerbtn .logbtn {
+    padding: 7.5px 66px;
+  }
+}
+@media all and (min-width: 600px) {
+  .bannerarea h1 {
+    font-size: 70px;
+    padding: 30px 10px 40px 40px;
+  }
+  .bannerbtn {
+    font-size: 30px;
+  }
+  .bannerbtn .getbtn {
+    margin-bottom: 25px;
+    padding: 7.5px 60px;
+  }
+  .bannerbtn .logbtn {
+    padding: 7.5px 66px;
+  }
+  .image {
+    height: 350px;
+    width: 350px;
+    border: 5px solid #ff4719;
+    border-radius: 100%;
+  }
+}
+@media all and (min-width: 1000px) {
+  .bannerarea h1 {
+    font-size: 80px;
+    padding: 30px 10px 40px 40px;
+  }
+  .bannerbtn {
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 40px;
+    justify-content: flex-start;
+    font-size: 35px;
+  }
+  .bannerbtn .getbtn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 7.5px 60px;
+  }
+  .bannerbtn .logbtn {
+    padding: 7.5px 66px;
+  }
+}
+@media all and (min-width: 1200px) {
+  .bannerarea h1 {
+    text-align: left;
+  }
+  .image {
+    height: 350px;
+    width: 350px;
+    border: 5px solid #ff4719;
+    border-radius: 100%;
+    margin-left: 40px;
+    margin-top: -100px;
+  }
+  .bannerwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+@media all and (min-width: 1300px) {
+  .image {
+    height: 350px;
+    width: 350px;
+    border: 5px solid #ff4719;
+    border-radius: 100%;
+    margin-left: 100px;
+    margin-top: -100px;
+  }
+  .bannerwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
+@media all and (min-width: 1400px) {
+  .image {
+    height: 400px;
+    width: 400px;
+    border: 5px solid #ff4719;
+    border-radius: 100%;
+    margin-left: 150px;
+    margin-top: 0px;
+  }
+  .bannerwrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
