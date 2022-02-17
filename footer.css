@@ -18,10 +18,17 @@ footer .pname {
     font-size: 3vw;
   }
 }
-@media all and (min-width: 1000px) {
+@media all and (min-width: 800px) {
   footer {
     flex-direction: row;
     padding: 20px 80px;
     font-size: 2vw;
+  }
+}
+@media all and (min-width: 1200px) {
+  footer {
+    flex-direction: row;
+    padding: 20px 80px;
+    font-size: 1.4vw;
   }
 }

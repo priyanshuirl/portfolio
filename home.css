@@ -361,10 +361,10 @@ h2 {
 }
 @media all and (min-width: 500px) {
   .contactme {
-    font-size: 4vw;
+    font-size: 3.7vw;
   }
   .contactme i {
-    font-size: 5vw;
+    font-size: 4.7vw;
   }
 }
 @media all and (min-width: 1200px) {
@@ -372,11 +372,13 @@ h2 {
     margin-top: 0px;
     margin-right: 40px;
     justify-content: space-around;
+    align-items: flex-start;
   }
   .contactme {
-    font-size: 3vw;
+    font-size: 1.7vw;
+    align-items: flex-start;
   }
   .contactme i {
-    font-size: 4vw;
+    font-size: 2.7vw;
   }
 }
