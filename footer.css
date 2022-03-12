@@ -8,6 +8,7 @@ footer {
   justify-content: space-between;
   color: white;
   font-size: 4vw;
+  width: 100%;
 }
 footer .pname {
   font-family: "Baloo 2", cursive;
