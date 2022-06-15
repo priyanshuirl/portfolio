@@ -31,7 +31,7 @@ body {
 }
 .box2 {
   height: auto;
-  background-color: #fff;
+  background-color: #222;
   padding: 16px;
   margin: 30px;
   border-radius: 20px;
@@ -132,7 +132,7 @@ h2 {
   height: 200px;
   width: 200px;
   border-radius: 100%;
-  background-color: #fff;
+  background-color: #222;
   border: 7px solid #ff4719;
   margin: px;
 }
