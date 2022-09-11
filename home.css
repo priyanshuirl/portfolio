@@ -184,8 +184,16 @@ h2 {
   justify-content: space-around;
 }
 .comprow1 img {
-  width: 60% !important;
+  width: 50% !important;
   margin: 30px 0px;
+}
+.img2 img {
+  width: 80% !important;
+  margin: 30px 0px;
+}
+.imageRow {
+  width: 100% !important;
+  margin: 20px 0px;
 }
 .comprow2 {
   display: flex;
@@ -206,6 +214,9 @@ h2 {
   width: 80vw;
   margin: auto;
 }
+#game {
+  width: 80% !important;
+}
 @media all and (min-width: 1000px) {
   .comprow1 {
     display: flex;
@@ -216,6 +227,10 @@ h2 {
   .comprow1 img {
     width: 16% !important;
     margin: 10px 10px;
+  }
+  .img2 img {
+    width: 28% !important;
+    margin: 30px 0px;
   }
   .comprow2 {
     display: flex;
@@ -229,6 +244,9 @@ h2 {
   }
   .comprow2 a {
     margin: 10px;
+  }
+  #game {
+    width: 35% !important;
   }
 }
 
