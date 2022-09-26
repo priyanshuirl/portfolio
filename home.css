@@ -215,7 +215,10 @@ h2 {
   margin: auto;
 }
 #game {
-  width: 80% !important;
+  width: 100% !important;
+}
+#game2 {
+  width: 70% !important;
 }
 @media all and (min-width: 1000px) {
   .comprow1 {
@@ -246,7 +249,11 @@ h2 {
     margin: 10px;
   }
   #game {
-    width: 50% !important;
+    width: 500px !important;
+    margin: 0px 50px;
+  }
+  #game2 {
+    width: 20% !important;
   }
 }
 
