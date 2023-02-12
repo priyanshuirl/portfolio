@@ -220,6 +220,9 @@ h2 {
 #game2 {
   width: 70% !important;
 }
+#game3 {
+  width: 200px !important;
+}
 @media all and (min-width: 1000px) {
   .comprow1 {
     display: flex;
